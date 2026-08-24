@@ -4,7 +4,9 @@
   "description": "Telegram bot for sending messages and photos",
   "main": "bot-message-photo.js",
   "scripts": {
-    "dev": "npx ts-node bot.js"
+    "dev": "npx ts-node bot.ts",
+    "run-with-node": "node dots.ts",
+    "run-with-bun": "bun dots"
   },
   "keywords": [],
   "author": "",
