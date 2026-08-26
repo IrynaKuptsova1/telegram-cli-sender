@@ -5,8 +5,8 @@
   "main": "bot-message-photo.js",
   "scripts": {
     "dev": "npx tsx bot.ts",
-    "run-with-node": "node dots.ts",
-    "run-with-bun": "bun dots"
+    "run-with-node": "node bot.ts",
+    "run-with-bun": "bun bot"
   },
   "keywords": [],
   "author": "",
