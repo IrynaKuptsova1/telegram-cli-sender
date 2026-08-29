@@ -36,6 +36,11 @@ Short aliases
 ```
 bun run bot.ts m "Hello from the terminal"
 bun run bot.ts p "./path/to/photo.jpg"
+
+
+npm run start:node -- m "Hello from the terminal"
+npm run start:node -- p "./path/to/photo.jpg"
 ```
+
 
 This project turns simple terminal commands into Telegram messages and photo uploads, so you can send updates without opening a chat window. It uses TypeScript, Commander.js for the CLI, dotenv for environment variables, and the native Telegram Bot API through `node-telegram-bot-api`.
