@@ -4,8 +4,8 @@
   "description": "Telegram bot for sending messages and photos",
   "main": "bot-message-photo.js",
   "scripts": {
-  "start:node": "node --import tsx bot.ts",
-  "start:bun": "bun bot.ts"
+    "start:node": "tsc && node dist/bot.js",
+    "start:bun": "bun run bot.ts"
   },
   "keywords": [],
   "author": "",
